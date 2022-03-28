@@ -1,17 +1,14 @@
 # s3-file-uploader
-Code template to upload files to S3 using nodejs
 
-## Running the application
-### Manually
-Update the database connection by updating
-DATABASE_HOST=
-DATABASE=
-DB_USERNAME=
-DB_PASSWORD=
-on the .env file in the app folder preferably with localhost credentials for testing
+## step one
+update the env with the variables
 
-Install the noje packages of the applications by running npm install
+## step two
+npm install
 
-Run the server nodemon start
+## step three
+npm start
 
-Interact with the api via postman. The default URI is http://{your url}:{port number}/api/v1/your-route eg: http://localhost:8080/api/v1/upload
+## actions
+Upload an image: route is {host-ip-address}:8090/api/v1/upload
+Retrieve all uploaded files {host-ip-address}:8090/api/v1/files
